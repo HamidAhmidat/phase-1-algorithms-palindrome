@@ -1,9 +1,15 @@
 function isPalindrome(word) {
   // Write your algorithm here
+  return word === word.split("").reverse().join("").toLowerCase();
 }
 
 /* 
   Add your pseudocode here
+ 
+  1- split the word into an array of letters.
+  2- reverse the given array and join it togather not forgetting to lowercase everything.
+  3- check if  word is equal to word after splitting and reversing and joining
+  4- use the '==' operator because it returns a boolean result
 */
 
 /*
